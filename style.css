@@ -83,7 +83,7 @@ img{
     display: inline-block;
     transform: scale(1.1);
 }
-a:visited {
+.container button a:visited {
     text-decoration: none;
     color: antiquewhite;
 }
@@ -104,9 +104,10 @@ a:visited {
     top: 77px;
 }
 .icon2{
-    position: absolute;
-    left: 870px;
-    top: 910px;
+    display: inline-block;
+    position: relative;
+    left: 240px;
+    top: 107px;
 }
 .icon2 button{
     background-color: white;
@@ -126,5 +127,6 @@ a:visited {
     transform: scale(1.1);
 }
 a:visited{
+    color: antiquewhite;
     text-decoration: none;
 }
