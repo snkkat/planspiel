@@ -26,3 +26,31 @@ button:hover{
     background-color: #708a6d;
     color: white;
 }
+.footer{
+    background-color: #083e40d3;
+    clip-path: polygon(40% 0, 46% 25%, 66% 0, 78% 19%, 100% 10%, 100% 100%, 0 100%, 0 0, 13% 37%, 21% 0);
+    color: antiquewhite;
+    font-size: 10pt;
+    padding-bottom: 20pt;
+    padding-top: 50pt;
+    margin-top: 60pt;
+    position: relative;
+    text-decoration: none;
+}
+.icon{
+    position: relative;
+    right: 300px;
+    top: 77px;
+}
+.icon2{
+    position: absolute;
+    left: 870px;
+    top: 775px;
+}
+.footer ul li a{
+    text-decoration: none;
+}
+a:visited{
+    color: antiquewhite;
+    text-decoration: none;
+}
