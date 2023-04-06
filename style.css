@@ -14,11 +14,56 @@
 .header p {
     font-size: 15px;
 }
+.container div{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (min-width:480px) {
+    .tablet{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+}
+@media (min-width:768px) {
+    .smartphone{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+}
+@media (min-width:1024px) {
+    .tablet{
+        display: none;
+    }
+    .laptop{
+        display: block;
+    }
+}
+@media (min-width:1200px) {
+    .laptop{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+}
 img{
-    height: 75vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.responsive {
+    width: 100%;
+    max-width: 1020px;
+    height: auto;
 }
 .container button {
     background-color: #d4a76f;
@@ -29,11 +74,14 @@ img{
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
     transition-duration: 0.4s;
 }
 .container button:hover {
     background-color: #708a6d;
     color: white;
+    display: inline-block;
+    transform: scale(1.1);
 }
 a:visited {
     text-decoration: none;
@@ -60,8 +108,22 @@ a:visited {
     left: 870px;
     top: 910px;
 }
+.icon2 button{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 0.5rem;
+}
 .footer ul li a{
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.footer ul li a:hover{
+    display: inline-block;
+    transform: scale(1.1);
 }
 a:visited{
     text-decoration: none;
